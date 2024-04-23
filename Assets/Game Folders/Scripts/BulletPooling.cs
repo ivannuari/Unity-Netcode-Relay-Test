@@ -11,18 +11,7 @@ public class BulletPooling : MonoBehaviour
 
     private void Start()
     {
-        NetworkManager.Singleton.OnServerStarted += Singleton_OnServerStarted;
-    }
-
-    private void OnDestroy()
-    {
-        NetworkManager.Singleton.OnServerStarted -= Singleton_OnServerStarted;
-    }
-
-    private void Singleton_OnServerStarted()
-    {
         CreatePool();
-        
     }
 
     private void CreatePool()

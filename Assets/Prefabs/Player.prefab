@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1778295485244940050}
   - component: {fileID: 1834885329424759896}
   - component: {fileID: 234220068001437768}
+  - component: {fileID: 5975874594091031627}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -101,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2696022269
+  GlobalObjectIdHash: 428971161
   InScenePlacedSourceGlobalObjectIdHash: 2696022269
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 0
@@ -140,6 +141,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 6973616723792362091, guid: 4264a37062165cf4e8791e1b37c094fe, type: 3}
   nozzle: {fileID: 5617284618464853109}
+--- !u!114 &5975874594091031627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908462769387835461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221be2733d405fe4bae33d486dc685b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 6973616723792362091, guid: 4264a37062165cf4e8791e1b37c094fe, type: 3}
+  bulletPool: []
 --- !u!1 &5293529753311012788
 GameObject:
   m_ObjectHideFlags: 0
